@@ -16,7 +16,7 @@ namespace HelloWorldApi.Controllers
         public async Task<string> CallApiAsync()
         {
             _logger.LogInformation("Hello World says the API");
-            return await Task.FromResult("Hello World 3 !!");
+            return await Task.FromResult("Hello World 4 !!");
         }
     }
 }
